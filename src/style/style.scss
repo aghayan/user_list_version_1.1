@@ -1,0 +1,63 @@
+
+.user_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.inputList {
+    // display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.inputList input {
+    height: 30px;
+    border-radius: 10px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table th, tr, td{
+    border: 1px solid gray;
+    padding: 5px; 
+}
+
+.blueButton{
+    color: white;
+    border-radius: 5px;
+    background-color: #25A3B8;
+    width: 33%;
+    height: 35px;
+
+}
+.redButton{
+    background-color: #DC3545;
+    color: white;
+    border-radius: 5px;
+    width: 33%;
+    height: 35px;
+}
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #f2f2f2;
+    flex-direction: column;
+    gap:10px
+}
+.loading h2{
+    color:#DC3545;
+}
+.errors{
+    display: flex;
+    gap: 20px;
+}
+.errors p{
+    color: red;
+}
