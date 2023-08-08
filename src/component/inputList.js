@@ -19,14 +19,13 @@ export function InputList({ AddData }) {
 
   const onSubmit = (data) => {
     handleAddData(data);
-  };
-
-  const handleReset = () => {
     setFirstName('');
     setLastName('');
     setEmail('');
     setAge('');
   };
+
+
 
   return (
     <div className='inputList'>
@@ -75,9 +74,6 @@ export function InputList({ AddData }) {
           Add
         </button>
 
-        <button style={{ width: 60 }} className='redButton' type="button" onClick={handleReset}>
-          Reset
-        </button>
       </form>
       <div className='errors'>
         {errors.firstName && <p>First Name is required.</p>}

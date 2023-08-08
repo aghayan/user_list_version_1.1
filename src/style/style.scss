@@ -61,3 +61,10 @@
 .errors p{
     color: red;
 }
+
+.errorinput {
+    border-bottom: 1px solid red;
+}
+.loginForm .errors .error ~ input {
+    border: 1px red solid;
+}

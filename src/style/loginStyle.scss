@@ -1,0 +1,25 @@
+.loginForm .errors .error {
+    border: 1px red solid;
+}
+.container{
+    border: 3px black solid;
+    border-radius: 10px;
+    text-align: center;
+}
+.loginForm{
+    text-align: center;
+}
+.loginForm input{
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.loginForm button{
+    background: black;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    margin: 20px;
+}
